@@ -1,0 +1,59 @@
+.work__box {
+    margin-top: 158px;
+    display: flex;
+    align-items: center;
+}
+.work__box-fon {
+    background-image: url(/images/work-fon.png);
+    width: 1039px;
+    height: 694px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.work__box-text__text {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16214;    
+}
+.work__box-text__header {
+    width: 526px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;       
+}
+.work__box-text__p {
+    width: 570px;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #888888;
+}
+
+.work__box-text__btn {
+    margin-top: 40px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F16214;
+    border-radius: 54px;
+    padding: 13px 19px;
+}
+.hero__box-text__btn__link {
+    text-decoration: none;
+    font-family: "Roboto",serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;  
+}
+.work__box-text__icon {
+    background: #FFFFFF;
+    padding: 14px;
+    border-radius: 45%;
+}
