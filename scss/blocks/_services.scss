@@ -41,11 +41,16 @@
     padding: 20px;
 } 
 .services___box-ul__li__icon {
+    padding: 25px;
     display: block;
     margin: 0 auto;
     padding: 12px;
     border-radius: 40px;
     background: rgba(241, 98, 20, 0.15);
+}
+.services___box-ul__li__icon::before {
+    height: 30px;
+    width: 27px; 
 }
 .services___box-ul__li__header {
     margin-top: 44px;

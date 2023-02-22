@@ -1,0 +1,110 @@
+.product__box-p {
+    text-align: center;
+    margin-bottom: 6px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16214;
+}
+.product__box-h1 {
+    margin-bottom: 59px;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #000000;    
+}
+.product__box-ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.product__box-ul__li {
+    margin-right: 30px;
+    margin-bottom: 28px;
+    width: 300px;
+    list-style-type: none;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 50px 0px;
+}
+.product__box-ul__li:last-child {
+    margin-right: 0;
+}
+.product__box-ul__li__img {
+    width: 300px;
+    border-radius: 50px 0px 0 0;
+}
+.product__box-ul__li__texts {
+    display: block;
+    padding: 19px;
+}
+.product__box-ul__li__texts__header {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;    
+}
+.product__box-ul__li__texts__info__btn {
+    text-decoration: none;
+    padding: 14px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;    
+    background: #F16214;
+    border-radius: 50px;
+}
+.product__box-ul__li__texts__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product__box-ul__li__texts__info__evaluation__star {
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000000;
+}
+.product__box-ul__li__texts__info__evaluation__price {
+    margin-top: 16px;
+    margin-bottom: 50px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.product__box-btn {
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F16214;
+    border-radius: 54px;
+    padding: 13px;
+}
+.product__box-btn__link {
+    text-decoration: none;
+    font-family: "Roboto",serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;  
+}
+.product__box-btn__icon {
+    background: #FFFFFF;
+    padding: 14px;
+    border-radius: 45%;
+}
